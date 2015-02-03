@@ -3,7 +3,7 @@ import os
 import dj_database_url
 
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
-SECRET_KEY = os.environ['DJANGO_SECRET_KEY']
+SECRET_KEY = os.environ['DJANGO_SECRET']
 
 DEBUG = 'DEBUG' in os.environ
 TEMPLATE_DEBUG = DEBUG
