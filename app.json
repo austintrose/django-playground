@@ -5,7 +5,7 @@
   "keywords": ["django"],
   "success_url": "/",
   "scripts": {
-    "postdeploy": "./manage.py migrate"
+    "postdeploy": "./manage.py migrate --noinput"
   },
   "env": {
     "DJANGO_SECRET": {
