@@ -1,0 +1,16 @@
+{
+  "name": "Django playground",
+  "description": "A simple Django project to showcase basic features",
+  "repository": "https://github.com/dgouldin/django-playground",
+  "keywords": ["django"],
+  "success_url": "/",
+  "scripts": {
+    "postdeploy": "./manage.py migrate; ./manage.py collectstatic"
+  },
+  "env": {
+    "DJANGO_SECRET": {
+      "description": "A secret key for encrypting Django setssions",
+      "generator": "secret"
+    }
+  }
+}
