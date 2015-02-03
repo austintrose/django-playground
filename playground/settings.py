@@ -54,3 +54,10 @@ USE_L10N = True
 USE_TZ = True
 
 LOGIN_REDIRECT_URL = '/profile/'
+
+if not DEBUG:
+    EMAIL_HOST_USER = os.environ['SENDGRID_USERNAME']
+    EMAIL_HOST= 'smtp.sendgrid.net'
+    EMAIL_PORT = 587
+    EMAIL_USE_TLS = True
+    EMAIL_HOST_PASSWORD = os.environ['SENDGRID_PASSWORD']

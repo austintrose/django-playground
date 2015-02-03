@@ -12,5 +12,8 @@
       "description": "A secret key for encrypting Django setssions",
       "generator": "secret"
     }
-  }
+  },
+  "addons": [
+    "sendgrid"
+  ]
 }
