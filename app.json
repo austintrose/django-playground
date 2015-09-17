@@ -1,7 +1,7 @@
 {
   "name": "Django playground",
   "description": "A simple Django project to showcase basic features",
-  "repository": "https://github.com/dgouldin/django-playground",
+  "repository": "https://github.com/austintrose/django-playground",
   "keywords": ["django"],
   "success_url": "/",
   "scripts": {
